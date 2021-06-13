@@ -1,0 +1,19 @@
+# Setup plataforms 
+#    android/ios: true - Override the icon for the platform 
+#                 false - Not generating icons for the platform
+#                 {imagePath} - Generate icon for the platform using to file on the specified path without removing the default icon.
+#    image_path: path of the icon
+#    image_path_android: Path of the icon specific for Android (optional - override image_path is defined)
+#    image_path_ios: Path of the icon specific for iOS (optional - override image_path is defined)
+#    adaptive_icon_background (Android only): Color code or path to image that will be used as background of adaptive icon
+#    adaptive_icon_foreground (Android only): Color code or path to image that will be used as foreground of adaptive icon
+#
+# Commands:
+#   flutter pub add flutter_launcher_icons
+#   flutter pub get
+#   flutter pub run flutter_launcher_icons:main
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_main_logo.png"

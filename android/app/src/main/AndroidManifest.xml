@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firebase_teste">
    <application
-        android:label="firebase_teste"
+        android:label="CRUD Firestore"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

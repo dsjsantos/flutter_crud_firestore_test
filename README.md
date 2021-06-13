@@ -1,4 +1,4 @@
-# firebase_teste
+# Android Firebase (Firestore) CRUD test
 
 A Android app that shows a CRUD Firestore integration sample
 
@@ -13,3 +13,5 @@ Requirements:
 2) Download google-services.json file
 3) Place it on \android\app\google-services.json
 
+
+Remember that if you whant to run an app build you need to create you own key.properties at \android\key.properties
